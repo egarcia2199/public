@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="shortcut icon" href="/images\favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css\normalize.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/index.js"></script>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        AOS.init({
+            duration: 900
+        
+        });
+      });
+      </script>
+    
+</head>
+
+    <nav id="menu" class="nav container">        
+        <ul class="nav__link">
+            <li class="nav__items">
+                <a href="#aboutme" class="nav__links">SOBRE MI</a>
+            </li>    
+
+            <li class="nav__items">
+                <a href="#estudios" class="nav__links">ESTUDIOS</a>
+            </li>    
+
+            <li class="nav__items">
+                <a href="#" class="nav__links">EXPERIENCIA LABORAL</a>
+            </li> 
+
+            <li class="nav__items">
+                <a href="#" class="nav__links">PROYECTOS</a>
+            </li>   
+       
+        </ul>
+        <div class="nav__menu">
+            <img src="/images/menu.svg" alt="menu" class="nav__img">
+        </div>
+    
+    </nav>
+
+    <header class="hero">
+            
+        <body>
+            <div class="nav__logo">       
+        <img src="/images/close.svg" alt="cerrar" class="nav__close">
+    </div>
+
+
+        <section class="hero__container container">
+            <img src="/images/fotocv.jpg" alt="foto" class="nav__img" data-aos="zoom-out">
+        <h1 class="hero__title" data-aos="zoom-in-up">ERIC GARCIA QUINTANS</h1>
+        
+        <div id="menurrss">    
+            <ul class="nav__link">
+                <li class="rsicons" data-aos="fade-right">
+                    <a class="rsicon" href="https://www.linkedin.com/in/eric-garcia-quintans-149b99193/"><img src="/images/linkedn.png" width="80px"></a>  
+                </li>    
+    
+                <li class="rsicons" data-aos="fade-left">
+                    <a class="rsicon" href="https://github.com/egarcia2199?tab=repositories"><img src="/images/github.png" width="80px"></a>
+                </li>    
+            </ul>
+    </div>
+        
+    </section>
+    </header>
+    <main>
+
+    <div data-aos="fade-up">
+        <section id="aboutme" class="section container about">
+            <h2 class="subtitle">¿Quien soy?</h2>
+            <p class="about__paragraph">
+
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque mauris velit, varius non elit sit amet, pharetra laoreet leo. In hac habitasse platea dictumst. Phasellus dui elit, consequat eu efficitur eu, viverra eget nulla. Pellentesque erat justo, consequat vitae commodo at, scelerisque et enim. In efficitur leo quis ex interdum vulputate. Vivamus eros nibh, molestie vel mollis eu, semper vitae diam. Aenean luctus turpis vitae nibh blandit maximus. Ut eget facilisis elit. Mauris nec aliquet mauris. Aliquam vel augue vitae massa lacinia ullamcorper cursus ac ligula.
+            </p>
+        </section>
+    </div>
+
+    <div data-aos="fade-left">
+        <section id="estudios" class="section container estudios">
+            <div class="container__estudios container">
+            <h2 class="subtitle">¿Que he estudiado?</h2>
+            <p class="estudios__paragraph">
+                Cursé el CFGM de Sistemas Microinformaticos y Redes en el Institut Manuel Vazquez Montalban, donde pude aprender lo siguiente:
+            </p>
+
+            <ul class="list">
+                <li>Montar y mantener equipos informaticos</li>    
+                <li>Instalar y configurar sistemas operativos (Windows y Linux)</li>    
+                <li>Aplicaciones ofimaticas</li>    
+                <li>Bases de datos</li>    
+                <li>Imagen y sonido</li>   
+                <li>Seguridad informatica (Seguridad activa y pasiva, copias de seguridad, protección de datos, firewall y proxy...)</li>   
+            </ul>
+
+            <!-- CAROUSEL -->
+            <div class="carousel">
+                    <div class="slider">
+                        <div class="slide-track">
+                            <div class="slide">
+                            <img class="logo" src="/images/logoMVM.png"/>
+                        </div>
+                        <div class="slide">
+                            <img class="logo" src="/images/logoPedralbes.jpg">
+                        </div>
+                        <div class="slide">
+                            <img class="image" src="/images/java.png"/>
+                        </div>
+                        <div class="slide">
+                            <img class="image" src="/images/htmlcssjs.png">
+                        </div>
+                        <div class="slide">
+                            <img class="image" src="/images/seguridad.png">
+                        </div>
+                        <div class="slide">
+                            <img class="image" src="/images/unity.svg">
+                        </div>
+                    </div>
+                </div>
+           
+
+
+            <p class="estudios__paragraph">
+                Tras finalizar el Grado Medio cursé el CFGS de Administración de Sistemas Microinformaticos en Red, donde aprendí:
+            </p>
+
+            <ul class="list">
+                <li>Bases de datos Relacionales y No relacionales (mySQL, PostgreSQL, mongoDB, mariaDB...)</li>    
+                <li>JAVA</li>    
+                <li>Lenguajes de marcas</li>    
+                <li>Automatización de tareas</li>    
+                <li>Administración de redes (switches, firewall, proxy...)</li>  
+                <li>Aplicaciones web (PHP, Wordpress, HTML, CSS, Docker, GIT...)</li>  
+                <li>Seguridad informatica y alta disponibilidad (Seguridad física, lògica y legislación, seguridad activa y acceso remoto, firewalls y servidores intermediarios...)</li>   
+            </ul>
+
+            <p class="estudios__paragraph">
+                Finalizé el Grado Superior y más adelante decidí cursar el CFGS de Desarrollo de Aplicaciones Multiplataforma orientado a Videojuegos, donde aprendí lo siguiente:
+            </p>
+
+            <ul class="list">
+                <li>Desarrollo de videojuegos en Unity (programación en C#)</li>    
+                <li>Desarrollo de videojuegos en Unreal Engine (programación en Blueprints)</li>    
+                <li>Desarrollo de aplicaciones mobiles en Android Studio (programación en JAVA)</li>    
+                <li>Modelado 3D en Autodesk 3DS Max y Blender</li>    
+                <li>Integración de bases de datos en Unity</li>   
+            </ul>   
+        </div>
+        </section>
+    </div>
+
+    <div data-aos="fade-right">
+        <section id="laboral" class="section container laboral">
+            <div class="container__laboral container">
+            <h2 class="estudios__subtitle">¿De que he trabajado?</h2>
+            
+
+            <ul class="laboral__lista">
+            <li class="laboral__items" style="--accent-color:#800080">
+                <div data-aos="fade-right" class="date">FORMACIÓ I TREBALL (2017-2018)</div>
+                <div data-aos="fade-right" class="title">Técnico informatico N1</div>
+                <div data-aos="fade-right" class="descr">
+                    <p data-aos="fade-right" class="desc">-Mantenimiento y puesta a punto de equipos informaticos y telefonos moviles</p>
+                    <p data-aos="fade-right" class="desc">-Mantenimiento de impresoras</p>
+                    <p data-aos="fade-right" class="desc">-Altas y bajas de usuarios en Active Directory</p>
+                    <p data-aos="fade-right" class="desc">-Bases de datos</p>
+                    <p data-aos="fade-right" class="desc">-Imagen y sonido</p>
+                </div>
+            </li>
+
+           
+
+            <li style="--accent-color:#800080">
+                <div data-aos="fade-left" class="date">SEAT (2019-2020)</div>
+                <div data-aos="fade-left" class="title">Documentar procesos de almacén y KPIs</div>
+                <div data-aos="fade-left" class="descr">
+                    <p data-aos="fade-left" class="desc">-Documentar los procesos que se llevan a cabo en el almacén de Recambios de Posventa de SEAT</p>
+                    <p data-aos="fade-left" class="desc">-Crear los KPIs para los supervisores</p>
+                </div>
+            </li>
+
+
+
+
+            <li style="--accent-color:#800080">
+                <div data-aos="fade-right" class="date">NEXTRET (2020)</div>
+                <div data-aos="fade-right" class="title">Tecnico informatico N2</div>
+                <div data-aos="fade-right" class="descr">
+                    <p data-aos="fade-right" class="desc">-Creación y revisión de backups en Veeam</p>
+                    <p data-aos="fade-right" class="desc">-Revisión de servidores</p>
+                    <p data-aos="fade-right" class="desc">-Revisión de cuotas de disco</p>
+                    <p data-aos="fade-right" class="desc">-Creación de scripts via Powershell</p>
+                    <p data-aos="fade-right" class="desc">-Maqueación de servidores de manera gráfica</p>
+                </div>
+            </li>
+
+
+
+            <li style="--accent-color:#800080">
+                <div data-aos="fade-left" class="date">TELLMEBYE (2022)</div>
+                <div data-aos="fade-left" class="title">Desarrollador de Realidad Virtual en UE5</div>
+                <div data-aos="fade-left" class="descr">
+                    <p data-aos="fade-left" class="desc">-Creación de escenario de la aplicación (iluminación, background 3D, modelados...)</p>
+                    <p data-aos="fade-left" class="desc">-Creación de manos del personaje orientados para Realidad Virtual</p> 
+                </div>
+            </li>
+
+
+            
+            <li style="--accent-color:#800080">
+                <div data-aos="fade-left" class="date">FUJITSU (2022-2023)</div>
+                <div data-aos="fade-left" class="title">Tecnico informatico On Site</div>
+                <div data-aos="fade-left" class="descr">
+                    <p data-aos="fade-right" class="desc">-Altas y bajas de usuarios via Active Directory</p>
+                    <p data-aos="fade-right" class="desc">-Mantenimiento de equipos y terminales</p> 
+                    <p data-aos="fade-right" class="desc">-Mantenimiento de impresoras</p> 
+                    <p data-aos="fade-right" class="desc">-Resolución de incidencias N1,5 via email, llamada o in situ</p>
+                    <p data-aos="fade-right" class="desc">-Maquetado de equipos</p> 
+                </div>
+            </li>
+
+
+            <li style="--accent-color:#800080">
+                <div data-aos="fade-left" class="date">KENOS TECHNOLOGY (2023)</div>
+                <div data-aos="fade-left" class="title">QA Automation (Vueling University)</div>
+                <div data-aos="fade-left" class="descr">
+                    <p data-aos="fade-left" class="desc">-Creación de QA Manual</p>
+                    <p data-aos="fade-left" class="desc">-Creación de tests de backend con Postman</p>
+                    <p data-aos="fade-left" class="desc">-Creación de tests de frontend con Selenium</p>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</body>
+</html>
