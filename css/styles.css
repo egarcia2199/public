@@ -43,6 +43,7 @@ body, html {
     background-size:cover;
     background-repeat: no-repeat;
     box-shadow: #070707;
+    scroll-behavior: smooth;
 }
 
 
